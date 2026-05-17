@@ -1,0 +1,20 @@
+# Phase 1 - video link
+websockets>=12.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# Phase 2 - YOLO detection + MediaPipe hands + mic capture
+ultralytics>=8.2.0
+mediapipe>=0.10.14
+sounddevice>=0.4.6
+
+# Phase 3 - speech + cloud APIs
+faster-whisper>=1.0.3
+pyttsx3>=2.90           ; platform_system == "Windows"
+edge-tts>=6.1.10
+pydub>=0.25.1           # mp3 decode for edge-tts (needs ffmpeg on PATH)
+google-generativeai>=0.7
+googlemaps>=4.10
+
+# Optional: only needed if sample_rate != 16000 in STT
+librosa>=0.10.2

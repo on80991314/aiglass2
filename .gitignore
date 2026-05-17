@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.log
+
+# Arduino / PlatformIO build artifacts
+build/
+.pio/
+*.hex
+*.bin
+*.elf
+
+# Model weights (keep large binaries out of git)
+models/*.pt
+models/*.onnx
+models/*.engine
